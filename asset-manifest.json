@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/IO-test/static/css/main.998ec721.chunk.css",
+    "main.js": "/IO-test/static/js/main.f0a72e3d.chunk.js",
+    "main.js.map": "/IO-test/static/js/main.f0a72e3d.chunk.js.map",
+    "runtime-main.js": "/IO-test/static/js/runtime-main.b5c366d4.js",
+    "runtime-main.js.map": "/IO-test/static/js/runtime-main.b5c366d4.js.map",
+    "static/js/2.7c0272e0.chunk.js": "/IO-test/static/js/2.7c0272e0.chunk.js",
+    "static/js/2.7c0272e0.chunk.js.map": "/IO-test/static/js/2.7c0272e0.chunk.js.map",
+    "index.html": "/IO-test/index.html",
+    "precache-manifest.3e47eb11951f1c2e53f505db483ae606.js": "/IO-test/precache-manifest.3e47eb11951f1c2e53f505db483ae606.js",
+    "service-worker.js": "/IO-test/service-worker.js",
+    "static/css/main.998ec721.chunk.css.map": "/IO-test/static/css/main.998ec721.chunk.css.map",
+    "static/js/2.7c0272e0.chunk.js.LICENSE": "/IO-test/static/js/2.7c0272e0.chunk.js.LICENSE",
+    "static/media/PasswordReset.scss": "/IO-test/static/media/arrow.4a0aa783.svg",
+    "static/media/App.scss": "/IO-test/static/media/background-dark.94ddd74c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5c366d4.js",
+    "static/js/2.7c0272e0.chunk.js",
+    "static/css/main.998ec721.chunk.css",
+    "static/js/main.f0a72e3d.chunk.js"
+  ]
+}
