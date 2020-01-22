@@ -1,0 +1,20 @@
+%header-text {
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+%input {
+  width: 65%;
+  height: 50px;
+  line-height: 50px;
+  background: transparent;
+  border-bottom: 1px solid rgb(40, 51, 79);
+  margin-bottom: 25px;
+  font-size: 15px;
+  color: white;
+
+  &::placeholder {
+    color: rgb(93, 105, 133);
+  }
+}

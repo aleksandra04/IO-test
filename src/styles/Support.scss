@@ -1,0 +1,38 @@
+.support {
+  margin: 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__text {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+    &--or {
+      margin: 0 10px;
+    }
+  }
+
+  &__button {
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: rgb(114, 150, 215);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bolder;
+    box-shadow: 0 0 5px rgba(12, 18, 31, 0.3);
+    letter-spacing: 0.05em;
+  }
+}
+
+.logo {
+  margin-bottom: 30px;
+  max-width: 200px;
+
+  @media (max-width: 1000px) {
+    margin-bottom: 15px;
+  }
+}

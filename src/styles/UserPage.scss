@@ -1,0 +1,76 @@
+@import './extends.scss';
+
+.projects-container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+  @media (max-width: 1000px) {
+    padding: 20px;
+  }
+
+  &__header {
+    @extend %header-text;
+    margin: 0 auto;
+
+    &--name {
+      font-weight: 500;
+    }
+  }
+
+  &__text {
+    margin: 10px auto 20px;
+    color: rgb(93, 105, 133);
+    font-size: 14px;
+
+    @media (max-width: 1000px) {
+      margin: 10px auto 0;
+    }
+  }
+}
+
+.projects-list {
+  width: 90%;
+  max-height: 250px;
+  list-style: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(93, 105, 133);
+    width: 4px;
+    height: 10px;
+    border-radius: 2px;
+  }
+
+  &__item {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid rgb(93, 105, 133);
+    text-align: center;
+
+    @media (max-width: 1000px) {
+      height: 50px;
+      line-height: 50px;
+    }
+
+    &__link {
+      display: block;
+      color: rgb(93, 105, 133);
+      width: 100%;
+      height: 100%;
+
+      &:hover {
+        color: white;
+        font-weight: 500;
+      }
+    }
+  }
+}
