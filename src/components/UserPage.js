@@ -20,9 +20,9 @@ const UserPage = () => {
   return (
     <section className='projects-container'>
       <h1 className='projects-container__header'>
-        Hi,
+        Hi, {' '}
         <span className='projects-container__header--name'>
-          Nikita !
+           Nikita !
         </span>
       </h1>
       <p className='projects-container__text'>

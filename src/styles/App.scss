@@ -53,13 +53,13 @@ background-size: cover;
   display: flex;
   align-items: center;
 
-  @media (max-width: 600px) {
-    flex-grow: 1;
-  }
-
   @media (max-width: 1000px) {
     flex-basis: 60%;
     background-color: rgb(4, 16, 44);
     justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    flex-grow: 1;
   }
 }
